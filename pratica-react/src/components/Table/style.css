@@ -1,0 +1,85 @@
+.table-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.infos-table {
+  display: flex;
+  
+  justify-content: left;
+  gap: 200px;
+  align-items: center;
+  height: 46px;
+  width: 906px;
+  background: #f4f0f0;
+  margin-bottom: 24px;
+  padding: 20px;
+}
+.infos-contato {
+  display: flex;
+  
+  justify-content: left;
+  white-space: nowrap;
+  align-items: center;
+  height: 46px;
+  width: 906px;
+  background: #FFFAFA;
+  margin-bottom: 14px;
+  padding: 20px;
+}
+
+.contato {
+  
+  display: flex;
+  justify-content: space-between;
+  background: #FFFAFA;
+  height: 46px;
+  width: 956px;
+}
+.contato-texto {
+  display: flex;
+  align-items: center;
+}
+.btns-contato {
+  display: flex;
+  position: absolute;
+  right: 50px;
+  gap:8px
+}
+.btns-contato img {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+.btn-editar {
+  cursor: pointer;
+}
+.nome, .email, .telefone {
+  display: flex;
+
+}
+.nome ,.email,.telefone{
+  width: 100px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  position: absolute;
+  text-align: left;
+  position: absolute;
+}
+.nome {
+  position: absolute;
+  left: 20px;
+}
+.email {
+  position: absolute;
+  left: 260px;
+}
+.telefone {
+  position: absolute;
+  left: 500px;
+}

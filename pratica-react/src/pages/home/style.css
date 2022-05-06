@@ -1,0 +1,12 @@
+.content-home {
+    position: relative;
+    top: 104px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-adicionar {
+    margin-bottom: 30px;
+}

@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+}
+.content-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+input {
+  height: 51px;
+  width: 476px;
+  padding: 15px;
+  border: 1px solid #e8e8e8;
+  background: #fdfafa;
+  margin-bottom: 16px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.btn-confirmar {
+  height: 50px;
+  width: 475px;
+  padding: 15px 0px;
+  border-radius: 8px;
+  border: none;
+  background: #04c45c;
+  color: white;
+  margin-bottom: 10px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-adicionar {
+  height: 50px;
+  width: 237px;
+  padding: 15px 0px;
+  border-radius: 8px;
+  border: none;
+  background: #04c45c;
+  color: white;
+  margin-bottom: 10px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-cancelar {
+  height: 50px;
+  width: 475px;
+  padding: 15px 0px;
+  border-radius: 8px;
+  border: none;
+  background: #FB0615A6;
+  color: white;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.btn-confirmar:hover,.btn-adicionar:hover,.btn-cancelar:hover {
+  opacity: 80%;
+}

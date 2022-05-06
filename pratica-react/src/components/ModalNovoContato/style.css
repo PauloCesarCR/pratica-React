@@ -1,0 +1,51 @@
+.container-form {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background: #3D3D3D7A;
+  }
+
+
+.form-contato {
+  position: relative;
+  height: 563px;
+  width: 476px;
+  border-radius: 8px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: white;
+}
+.form-contato h1 {
+  margin-bottom: 40px;
+}
+.form-contato input {
+  height: 50px;
+  width: 364px;
+  border: 1px solid #E8E8E8
+}
+.form-contato .btn-adicionar {
+  height: 50px;
+  width: 364px;
+  margin: 5px;
+}
+
+.form-contato .btn-cancelar {
+  height: 50px;
+  width: 364px;
+}
+.btn-fechar {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}

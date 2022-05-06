@@ -1,0 +1,21 @@
+nav {
+    height: 70px;
+    width: 100%;
+    background: #134563;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: white;
+}
+.content-navbar {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.img-sair {
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  right: 30px;
+  cursor: pointer;
+}

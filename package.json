@@ -1,0 +1,24 @@
+{
+  "name": "front-pratica-react-m04-a03",
+  "version": "1.0.0",
+  "description": "![](https://i.imgur.com/xG74tOh.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PauloCesarCR/front-pratica-react-M04-A03.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PauloCesarCR/front-pratica-react-M04-A03/issues"
+  },
+  "homepage": "https://github.com/PauloCesarCR/front-pratica-react-M04-A03#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "react-router-dom": "^6.3.0"
+  }
+}

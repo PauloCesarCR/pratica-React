@@ -1,0 +1,52 @@
+.modal-excluircontato {
+  height: 319px;
+  width: 476px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  position: relative;
+}
+.fecharModalExcluir {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+.modal-excluircontato h1 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.modal-excluircontato span {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.btn-excluir,
+.btn-cancelarAcao {
+  height: 50px;
+  width: 364px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 8px;
+  cursor: pointer;
+  color: white;
+}
+.btn-excluir {
+  background: #04c45c;
+}
+.btn-cancelarAcao {
+  background: #fb0615a6;
+}
