@@ -75,6 +75,7 @@ function Cadastrar() {
             <button className="btn-confirmar">Cadastrar</button>
             <button className="btn-cancelar">Cancelar</button>
           </form>
+          <Link to="/login">Já tem uma conta? clique para fazer login</Link>
         </div>
         <img src={imgcadastrar} alt="smartphone" />
       </div>
