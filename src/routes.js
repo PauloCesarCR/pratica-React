@@ -15,6 +15,7 @@ function MainRoutes() {
   return (
     <Routes>
       <Route path="/login" element={<Login />} />
+      <Route path="/" element={<Login />} />
     <Route element={<ProtegerRotas redirectTo="/login" />}> 
       <Route path="/home" element={<Home />} />
     </Route> 
