@@ -2,7 +2,7 @@ import "./style.css";
 import imgcadastrar from "../../assets/imgcadastrar.png";
 import { useEffect, useState } from "react";
 import api from "../../api";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link} from "react-router-dom";
 import { useLocalStorage } from "react-use";
 function Cadastrar() {
   const navigate = useNavigate();
