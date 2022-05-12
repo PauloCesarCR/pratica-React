@@ -1,7 +1,7 @@
 import "./style.css";
 import api from "../../api";
 import imglogin from "../../assets/imglogin.png";
-import { useNavigate } from "react-router-dom";
+import { useNavigate,Link} from "react-router-dom";
 import { useEffect, useState } from "react";
 import { useLocalStorage } from "react-use";
 function Login() {
@@ -65,6 +65,7 @@ function Login() {
             </label>
             <button className="btn-confirmar">Login</button>
           </form>
+          <Link to="/cadastre-se">Não tem uma conta? Cadastre-se </Link>
         </div>
       </div>
     </div>

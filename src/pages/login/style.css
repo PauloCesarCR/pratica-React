@@ -16,3 +16,8 @@
     align-items: left;
     margin-bottom: 32px;
 }
+
+a {
+    text-decoration: none;
+    margin-top: 10px;
+}
